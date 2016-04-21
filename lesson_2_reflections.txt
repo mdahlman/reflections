@@ -6,3 +6,7 @@ How is the staging area different from the working directory and the repository?
 Working dir holds everything you change (as well as things that are not changed).
 Staging is more focused: it's only the things intended to be commited as useful changes.
 
+How can you use the staging area to make sure you have one commit per logical change?
+The staging area makes it easy to diff working vs staging. Changes can be unstaged if they are not part of a single logical group.
+
+
