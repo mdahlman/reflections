@@ -1,0 +1,46 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Chiefly because it was easy to ignore all identical lines.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+This likely empowers the developer to make changes more fearlessly.
+This likely makes it easier to track to when bugs were introduced.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Forced thinking is an annoying imposition in the short term. But it ought to be hugely beneficial in the long-term. Describing each commit is forcing you to think about each change.
+
+How can you use the commands git log and git diff to view the history of files?
+git log shows all commits
+git diff is self-explanatory
+
+original:
+A
+B
+C
+D
+E
+F
+
+Output of diff -u
+
+--- file.txt    2014-12-03 16:27:41.000000000 -0500
++++ updated.txt    2014-12-03 16:28:11.000000000 -0500
+@@ -2,4 +2,6 @@
+ B
++$
+ C
+-D
++#
++%
+ E
+
+Matt's reconstruction updated.txt based on reading the diff:
+A
+B
+$
+C
+#
+%
+E
+F
+
+
