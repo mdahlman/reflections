@@ -2,3 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 The folder .git is created containing git metata.
 This is necessary so that you can then stage and commit changes.
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Working dir holds everything you change (as well as things that are not changed).
+Staging is more focused: it's only the things intended to be commited as useful changes.
+
