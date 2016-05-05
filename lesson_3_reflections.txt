@@ -8,3 +8,10 @@ Describe the differences between forks, clones, and branches. When would you use
 Forks are clones on github.
 Branches are different.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+This provides the ability to work offline. I can easily determine what changes I have made.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+We would used SVN. It's different. I don't know enough details to know what to expect as the differences.
+
+
